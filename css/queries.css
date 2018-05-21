@@ -1,0 +1,7 @@
+@media all and (min-width: 768px) {
+    .video-area {
+        border: 10px solid #fff;
+        border-radius: 20px;
+        height: 550px;
+    }
+}
