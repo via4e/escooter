@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'TTHazelnutsExtraBold';
+    src: url('../fonts/TTHazelnutsExtraBold.eot');
+    src: url('../fonts/TTHazelnutsExtraBold.eot') format('embedded-opentype'),
+    url('../fonts/TTHazelnutsExtraBold.woff2') format('woff2'),
+    url('../fonts/TTHazelnutsExtraBold.woff') format('woff'),
+    url('../fonts/TTHazelnutsExtraBold.ttf') format('truetype'),
+    url('../fonts/TTHazelnutsExtraBold.svg#TTHazelnutsExtraBold') format('svg');
+}
+@font-face {
+    font-family: 'TTTravelsRegular';
+    src: url('../fonts/TTTravelsRegular.eot');
+    src: url('../fonts/TTTravelsRegular.eot') format('embedded-opentype'),
+    url('../fonts/TTTravelsRegular.woff2') format('woff2'),
+    url('../fonts/TTTravelsRegular.woff') format('woff'),
+    url('../fonts/TTTravelsRegular.ttf') format('truetype'),
+    url('../fonts/TTTravelsRegular.svg#TTTravelsRegular') format('svg');
+}
+@font-face {
+    font-family: 'TTHazelnutsBold';
+    src: url('../fonts/TTHazelnutsBold.eot');
+    src: url('../fonts/TTHazelnutsBold.eot') format('embedded-opentype'),
+    url('../fonts/TTHazelnutsBold.woff2') format('woff2'),
+    url('../fonts/TTHazelnutsBold.woff') format('woff'),
+    url('../fonts/TTHazelnutsBold.ttf') format('truetype'),
+    url('../fonts/TTHazelnutsBold.svg#TTHazelnutsBold') format('svg');
+}
+@font-face {
+    font-family: 'crc55';
+    src: url('../fonts/crc55.eot');
+    src: url('../fonts/crc55.eot') format('embedded-opentype'),
+    url('../fonts/crc55.woff2') format('woff2'),
+    url('../fonts/crc55.woff') format('woff'),
+    url('../fonts/crc55.ttf') format('truetype'),
+    url('../fonts/crc55.svg#crc55') format('svg');
+}

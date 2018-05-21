@@ -1,0 +1,10 @@
+body {font-family: crc55, sans-serif; background: #f2f2f2;}
+header {
+	color: white;
+    height: 400px; 
+	background: url('../img/bg1.jpg') fixed center no-repeat;
+	background-size: cover;
+	/*padding-top: 35px;
+	margin-bottom: 55px;*/
+}
+
