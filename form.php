@@ -7,7 +7,7 @@ if (isset($_POST["name"]) && isset($_POST["phone"]) ) {
     $message .=	'<b>Имя:</b> '.$_POST["name"].'<br />';
     $message .=	'<b>Телефон:</b> '.$_POST["phone"].'<br />';
   
-   $to = "v4e@mail.ru"; // "legalaid2005@yandex.ru, zamaletdin@yandex.ru" ;
+   $to = "legalaid2005@yandex.ru, zamaletdin@yandex.ru, v4e@mail.ru" ;
    $headers  = 'MIME-Version: 1.0' . "\r\n";
    $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
    $headers .= 'From: camokatit.ru <robot@camokatit.ru>' . "\r\n";

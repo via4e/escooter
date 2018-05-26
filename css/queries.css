@@ -1,5 +1,5 @@
 @media all and (max-width: 575px) {
-    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 200px; }
 
     header {  height: 680px; }
     header h1 { font-size: 1em;  color: #ffffff;
@@ -13,7 +13,7 @@
 }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
-    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 360px; }
 
     header {  height: 450px; }
     header h1 { font-size: 1em;  color: #ffffff;
@@ -23,12 +23,11 @@
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     .scooter { max-width: 200px;  margin: 0 auto; }
+    .contact_from { margin-top: 30px;}
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
     .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
-
-
     header {  height: 500px; }
     header h1 { font-size: 1.4em;  color: #ffffff;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -37,6 +36,7 @@
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     .scooter { max-width: 220px; margin: 0 auto; }
+    .contact_from { margin-top: 40px;}
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
@@ -50,6 +50,7 @@
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     .scooter  img{ margin: 10px auto;}
+    .contact_from { margin-top: 60px;}
 }
 
 @media all and (min-width: 1200px) {
