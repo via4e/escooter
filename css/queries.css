@@ -1,7 +1,66 @@
-@media all and (min-width: 768px) {
-    .video-area {
-        border: 10px solid #fff;
-        border-radius: 20px;
-        height: 550px;
+@media all and (max-width: 575px) {
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+
+    header {  height: 680px; }
+    header h1 { font-size: 1em;  color: #ffffff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
+    header h2 { font-size:1em;  padding:10px; color:#ffc107;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .scooter { max-width: 160px; margin: 30px auto;}
+    .contact_from { margin-top: 20px;}
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+
+    header {  height: 450px; }
+    header h1 { font-size: 1em;  color: #ffffff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    header h2 { font-size:0.7em;  padding:10px; color:#ffc107;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .scooter { max-width: 200px;  margin: 0 auto; }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+
+
+    header {  height: 500px; }
+    header h1 { font-size: 1.4em;  color: #ffffff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    header h2 { font-size: 1.1em;  padding: 10px; color: #ffc107;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .scooter { max-width: 220px; margin: 0 auto; }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+
+    header {  height: 670px; }
+    header h1 { font-size: 1.8em;  color: #ffffff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    header h2 { font-size: 1.6em;  padding: 0; color: #ffc107;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .scooter  img{ margin: 10px auto;}
+}
+
+@media all and (min-width: 1200px) {
+    .video-area { border: 10px solid #fff; border-radius: 20px; height: 550px; }
+
+    header {  height: 680px; }
+    header h1 { font-size: 2em;  color: #ffffff;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    header h2 { font-size: 1.6em;  padding: 15px; color: #ffc107;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .scooter  { margin: 10px auto;}
 }

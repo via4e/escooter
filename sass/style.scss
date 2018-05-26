@@ -16,7 +16,38 @@ header {
 	background-size: cover;
 }
 
-section { }
+header h1 { font-size: 1.1em; color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+header h2 { font-size: 1em; padding: 0; color: #ffc107;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.act { font-size: 1.1em; color: #ffffff; line-height: 1em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+.scooter { margin: 0 auto;
+	background: rgba(255,255,255,0.4);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:20px;
+	-webkit-box-shadow: 0px 0px 45px 5px rgba(255,255,255,0.4);
+	-moz-box-shadow: 0px 0px 45px 5px rgba(255,255,255,0.4);
+	box-shadow: 0px 0px 45px 5px rgba(255,255,255,0.4);
+}
+
+.adver { background: rgba(255,255,255,0.3);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 0px 45px 5px rgba(255,255,255,0.7);
+	-moz-box-shadow: 0px 0px 45px 5px rgba(255,255,255,0.7);
+	box-shadow: 0px 0px 45px 5px rgba(255,255,255,0.7);
+}
+
+.contact_from { margin-top: 80px;}
 
 /* intercolor */
 .intercolor {
@@ -104,6 +135,12 @@ footer {
 	font-size: 16px;
 	background: $green-three;
 }
+
+.cta-text {
+	font-size: 1.6em;
+}
+
+.contact_footer { }
 
 #scrollUp {
 	bottom: 0;
