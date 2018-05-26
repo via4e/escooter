@@ -7,13 +7,14 @@ var sass = require('gulp-sass');
 gulp.task('default', seq('clean', [ 'sass', 'js', 'css', 'fonts', 'img', 'index']) );
 
 gulp.task('js', function() {
-   return gulp.src(['js/jquery-3.3.1.min.js','js/bootstrap.min.js','js/custom.js'])
-      .pipe(concat('bundle.js'))  
+   return gulp.src(['js/jquery-3.3.1.min.js', 'js/bootstrap.min.js',  'js/owl.carousel.min.js', 'js/custom.js'])
+      .pipe(concat('bundle.js'))
       .pipe(gulp.dest('build/js'));
 });
 
 gulp.task('css', function() {
-    return gulp.src(['css/bootstrap.min.css','css/fontawesome-all.css','css/fonts.css','css/style.css','css/queries.css'])
+    return gulp.src(['css/bootstrap.min.css','css/fontawesome-all.css', 'css/owl.carousel.min.css',
+       'css/owl.theme.green.css', 'css/fonts.css','css/style.css','css/queries.css'])
       .pipe(concat('bundle.css'))
       .pipe(gulp.dest('build/css'))
 });
